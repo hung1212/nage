@@ -81,13 +81,12 @@ body{
 }
 .nav .nav_min_left li{
 	float: left;
-	
 	width: 100px;
 	list-style: none;
 	text-align: center;
 }
 
-.nav .nav_min_left a:link{
+.nav .nav_min_left a{
 	color: #FFFFFF;
 	font-size: 16px;
 }
@@ -107,4 +106,39 @@ body{
 	background: url(../img/images/search.jpg) no-repeat right center;
 	padding-right: 25px;
 	background-color: #fff;
+}
+
+.ad{
+	width: 1000px;
+	height: 310px;
+	overflow: hidden;
+}
+.zhuti{
+	height: 250px;
+}
+.zhuti .zhuti_not,.zhuti_two,.zhuti_three{
+	float: left;
+	display: inherit;
+	height: 250px;
+	width: 340px;
+	background: red;
+}
+.zhuti_not_top,.zhuti_two_two,.zhuti_three_not{
+	height: 35px;
+	
+}
+
+.zhuti_not_top_2p{
+	float: right;
+}
+
+
+.zhuti_two{
+	background: forestgreen;
+	width: 410px;
+}
+
+.zhuti_three{
+	background: darksalmon;
+	width: 230px;
 }
